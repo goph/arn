@@ -1,0 +1,19 @@
+language: go
+
+sudo: false
+
+go:
+    - 1.8.x
+    - 1.9.x
+    - tip
+
+matrix:
+    allow_failures:
+        - go: tip
+
+before_install:
+    - mkdir -p $HOME/bin
+    - curl -sL https://get.binhq.io/binbrew | DEST=$HOME/bin NAME=bin bash
+    - bin get golang/dep@0.3.2 $HOME/bin
+
+script: go test
