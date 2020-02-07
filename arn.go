@@ -36,8 +36,14 @@ type ResourceName struct {
 	// It is necessary to be stored here in order to restore the original Scheme.
 	ResourceDelimiter string
 
-	// Resource is the actual identifier of the resource.
+	// Resource is the actual identifier of the resource with path.
 	Resource string
+
+	// Resource is the actual identifier of the resource with path.
+	ResourceID string
+
+	// Resource is the actual identifier of the resource with path.
+	ResourcePath string
 }
 
 // Parse accepts an ARN parses it into a ResourceName.
