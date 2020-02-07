@@ -1,4 +1,4 @@
-module github.com/goph/arn
+module github.com/banzaicloud/arn
 
 go 1.13
 

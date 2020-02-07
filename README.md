@@ -1,8 +1,7 @@
 # [Amazon Resource Name](http://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html)
 
-[![Build Status](https://img.shields.io/travis/goph/arn.svg?style=flat-square)](https://travis-ci.org/goph/arn)
-[![Go Report Card](https://goreportcard.com/badge/github.com/goph/arn?style=flat-square)](https://goreportcard.com/report/github.com/goph/arn)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/goph/arn)
+[![Go Report Card](https://goreportcard.com/badge/github.com/goph/arn?style=flat-square)](https://goreportcard.com/report/github.com/banzaicloud/arn)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/banzaicloud/arn)
 
 **[Amazon Resource Name](http://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) parser and validator library.**
 
@@ -16,7 +15,7 @@ Read about ARNs in the [official documentation](http://docs.aws.amazon.com/gener
 ## Installation
 
 ```bash
-$ go get github.com/goph/arn
+$ go get github.com/banzaicloud/arn
 ```
 
 
@@ -28,7 +27,7 @@ package main
 import(
 	"fmt"
 	
-	"github.com/goph/arn"
+	"github.com/banzaicloud/arn"
 )
 
 func main() {

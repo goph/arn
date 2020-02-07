@@ -3,7 +3,7 @@ package arn_test
 import (
 	"testing"
 
-	"github.com/goph/arn"
+	"github.com/banzaicloud/arn"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
